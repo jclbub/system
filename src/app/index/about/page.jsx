@@ -1,7 +1,7 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/index/components/Navbar";
 // import Popup from "@/components/Popup"; // Import Sign-In modal
 import Image1 from "@/images/robot1.gif";
-import TypingEffect1 from "@/components/TypingEffect1";
+import TypingEffect1 from "@/app/index/components/TypingEffect1";
 
 const About = () => {
 	return (

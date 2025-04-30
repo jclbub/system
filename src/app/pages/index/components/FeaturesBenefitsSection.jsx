@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 import { FaShieldAlt, FaTools, FaBrain, FaChartLine, FaUsers, FaLightbulb, FaPaperPlane } from 'react-icons/fa';
 import { motion } from 'framer-motion';

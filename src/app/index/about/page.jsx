@@ -1,15 +1,9 @@
-"use client"
-
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import Navbar from "./components/Navbar";
-// import Popup from "./components/Popup"; // Import Sign-In modal
-import Image1 from "../../images/robot1.gif";
-import TypingEffect1 from "./components/TypingEffect1";
+import Navbar from "@/components/Navbar";
+// import Popup from "@/components/Popup"; // Import Sign-In modal
+import Image1 from "@/images/robot1.gif";
+import TypingEffect1 from "@/components/TypingEffect1";
 
 const About = () => {
-	const navigate = useNavigate();
-
 	return (
 		<>
 			<Navbar /> {/* Pass openModal function to Navbar */}
